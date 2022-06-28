@@ -1,0 +1,46 @@
+body{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "1 2 3 4"
+    "4 5 6 7";
+    object-fit:cover;
+}
+
+.beats{
+    grid-area:1;
+}
+
+.amazon{
+    grid-area:2;
+}
+
+.apple{
+    grid-area:3;
+}
+
+.adidas{
+    grid-area:4;
+}
+
+.one{
+    grid-area:5;
+}
+
+.two{
+    grid-area:6;
+}
+
+.three{
+    grid-area:7;
+}
+
+.four{
+    grid-area:8;
+}
+
+img{
+    width:400px;
+    height:auto;
+}
